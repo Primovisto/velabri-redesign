@@ -626,7 +626,6 @@ center{
 footer{
 	width: 100%;
     margin: 0 auto;
-    z-index: 100;
     position: relative;
 }
 
@@ -752,7 +751,7 @@ textarea { height: 80px; resize: none; }
     
     #our_work .portfolio-welcome p {
         text-align: center;
-        font-family: 'open sans', 'sans-serif';
+        font-family: 'raleway', 'sans-serif';
         font-size: 18px;
         color: #000;
     }
@@ -816,7 +815,7 @@ textarea { height: 80px; resize: none; }
         color: #fff;
         padding: 3px 10px;
         font-size: 16px;
-        font-family: 'open sans', 'sans-serif';
+        font-family: 'raleway', 'sans-serif';
         position: absolute;
         top: 45%;
         left: 25%;
@@ -831,7 +830,7 @@ textarea { height: 80px; resize: none; }
     
     #our_work .portfolio-item-info .name {
         text-align: center;
-        font-family: 'open sans', 'sans-serif';
+        font-family: 'raleway', 'sans-serif';
         font-size: 16px;
         font-weight: 600;
         color: #000;
@@ -839,9 +838,39 @@ textarea { height: 80px; resize: none; }
     
     #our_work .portfolio-item-info .type {
         text-align: center;
-        font-family: 'open sans', 'sans-serif';
+        font-family: 'raleway', 'sans-serif';
         font-size: 12px;
         font-weight: 400;
         color: #444;
     }
+
+#our_work .technologies-section{
+	background-image: url('http://i67.tinypic.com/2d12qol.jpg');
+	background-size:cover;
+	
+    height:130vh;
+	
+}
+
+#our_work .technologies-section h2 {
+	color:#fff;
+	text-align:center;
+	font-size:32px;
+	text-transform:uppercase;
+	margin-top:100px;
+}
+
+#our_work .technologies-column{
+	position:relative;
+	left:50px;
+}
+
+#our_work .technologies-logo {
+	margin-top:80px;
+}
+
+#our_work .extra-padding{
+	margin-top:100px;
+	
+}
 
