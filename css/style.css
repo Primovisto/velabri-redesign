@@ -745,3 +745,103 @@ textarea { height: 80px; resize: none; }
 }
 
 
+#our_work .portfolio-welcome {
+        background-color: #fff;
+        padding: 30px;
+    }
+    
+    #our_work .portfolio-welcome p {
+        text-align: center;
+        font-family: 'open sans', 'sans-serif';
+        font-size: 18px;
+        color: #000;
+    }
+    
+    #our_work .portfolio-item {
+        margin-bottom: 50px;
+    }
+    
+    #our_work .portfolio-main {
+        border-top: 1px solid #d3d3d3;
+        background-color: #fff;
+        padding: 50px;
+    }
+    
+    #our_work .portfolio-main:before {
+        display: block;
+        position: relative;
+        content: '';
+        width: 50px;
+        height: 50px;
+        bottom: 75px;
+        left: 48%;
+        background-color: #fff;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        z-index: 1;
+        border-bottom: 1px solid #d3d3d3;
+        border-right: 1px solid #d3d3d3;
+        ;
+    }
+    
+    #our_work .portfolio-item .logo-image {
+        position: relative;
+        filter:grayscale(100%);
+    }
+    
+    #our_work .img-responsive {
+        width: 100%;
+    }
+    
+    #our_work .portfolio-item .logo-image .overlay {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(31, 31, 31, 0.82);
+        padding: 10px;
+        color: #fff;
+        border-radius: 8px;
+    }
+    
+    #our_work .portfolio-item .logo-image .overlay:hover {
+        opacity: 1;
+    }
+    
+    #our_work .overlay-btn .view-site-btn {
+        background-color: #32c4e9;
+        color: #fff;
+        padding: 3px 10px;
+        font-size: 16px;
+        font-family: 'open sans', 'sans-serif';
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    
+    #our_work .overlay-btn .view-site-btn:hover {
+        background-color: #fff;
+        color: #32c4e9;
+    }
+    
+    #our_work .portfolio-item-info .name {
+        text-align: center;
+        font-family: 'open sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    #our_work .portfolio-item-info .type {
+        text-align: center;
+        font-family: 'open sans', 'sans-serif';
+        font-size: 12px;
+        font-weight: 400;
+        color: #444;
+    }
+
