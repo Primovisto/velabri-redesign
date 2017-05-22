@@ -874,3 +874,11 @@ textarea { height: 80px; resize: none; }
 	
 }
 
+#contact_us .contact-us-header h2{
+	text-align: center;
+	color:#303030;
+	font-size:32px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
