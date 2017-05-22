@@ -31,7 +31,7 @@ vel<!DOCTYPE html>
                         <a href="http://primovisto.github.io/velabri-redesign/velabri_our_work.html" class="nav-link" style="">Our Work</a>
                         <a href="#" class="nav-link">About</a>
                         <a href="#" class="nav-link">Academy</a>
-                        <a class="nav-link" href="/velabri_contact_us.html">Contact</a>
+                        <a class="nav-link" href="http://primovisto.github.io/velabri-redesign/velabri_contact_us.html">Contact</a>
                     </li>
                     <li class="nav-section secondary">
                         <a class="nav-link" id="dashboard-item" data-toggle="modal" data-target="#modal" href="#openModal">Start Your Project</a>
@@ -43,6 +43,48 @@ vel<!DOCTYPE html>
         </div>
         </div>
     </header>
+    
+    <div class="contact-us-header">
+        <h2>How can we help you?</h2>
+        <div class="inner contact">
+            <!-- Form Area -->
+            <div class="container contact-form">
+                <!-- Form -->
+                <form id="contact-us" method="post" action="#">
+                    <!-- Left Inputs -->
+                    <div class="col-xs-12 wow animated slideInLeft" data-wow-delay=".5s" style="width:60%; position:relative; left:200px;">
+                        <!-- Name -->
+                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                        <!-- Email -->
+                        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                        <!-- Subject -->
+                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        <textarea name="message" id="message" class="form textarea" placeholder="Message"></textarea>
+                    </div>
+                    <!-- End Left Inputs -->
+                    <!-- Right Inputs -->
+                    
+                    <!-- End Right Inputs -->
+                    <!-- Bottom Submit -->
+                    <div class="relative fullwidth col-xs-12">
+                        <!-- Send Button -->
+                        <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+                    </div>
+                    <!-- End Bottom Submit -->
+                    <!-- Clear -->
+                    <div class="clear"></div>
+                </form>
+                <!-- Your Mail Message -->
+                <div class="mail-message-area">
+                    <!-- Message -->
+                    <div class="alert gray-bg mail-message not-visible-message">
+                        <strong>Thank You !</strong> Your email has been delivered.
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact Form Area -->
+        </div>
+    </div>
     <footer>
         <div class="footer_inner clearfix">
             <div class="footer_bottom_holder">
