@@ -919,5 +919,15 @@ textarea { height: 80px; resize: none; }
    	right:0;
    }
 
+   #academy .jumbotron-content{
+	
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	text-align:center;
+	
+}
+
 
 
