@@ -345,7 +345,7 @@ header.navbar-fixed-top {
 	font-size:32px;
 	font-weight:700;
 	text-transform: uppercase;
-	color:#303030;
+	color:#111;
 	text-align: center;
 	padding-top:120px;
 }
@@ -359,7 +359,7 @@ header.navbar-fixed-top {
 }
 #quote-carousel .carousel-control {
     background: none;
-    color: #303030;
+    color: #20;
     font-size: 2.3em;
     text-shadow: none;
     margin-bottom: 60px;
@@ -451,7 +451,7 @@ header.navbar-fixed-top {
     }
 
     .info-text h5 {
-    	margin-top:60px;
+    	margin-top:100px;
     	color:#fff;
     	font-size: 24px;
     	font-weight: 700;
@@ -589,6 +589,7 @@ header.navbar-fixed-top {
 
   .form-btn{
     width:180px;
+    font-weight:600;
     display: block;
     height: auto;
     padding:15px;
@@ -908,6 +909,15 @@ textarea { height: 80px; resize: none; }
     	background-color: #3e54ff;
     	color:#fff;
     }
+
+   
+   #academy footer {
+   	position:static;
+   	position:fixed;
+   	bottom:0;
+   	left:0;
+   	right:0;
+   }
 
 
 
