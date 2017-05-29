@@ -912,7 +912,7 @@ textarea { height: 80px; resize: none; }
 
    
    #academy footer {
-   	position:static;
+   	
    	position:fixed;
    	bottom:0;
    	left:0;
